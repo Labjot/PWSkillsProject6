@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+body{
+    background-color: #f0f4f5;
+    height: 100%;
+    overflow:hidden;
+}
+li{
+    list-style-type: none;
+}
+.navbar-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    margin:35px 200px 35px 150px;
+}
+.nav-items-container .nav-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+
+}
+.medifineLogo-container img{
+    width: 150px;
+}
+.nav-items li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+}
+main{
+    display:flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+.leftside-container{
+    width: 50%;
+    margin-top: 110px;
+}
+.header-container{
+    font-size: 65px;
+    font-weight: 700;
+}
+.about-header{
+    font-size: 20px;
+    color: #808080;
+    padding:25px 0px 25px 0px;
+}
+img[alt="bottomAngle"]{
+    position: relative;
+    left: 678px;
+    bottom: 650px;
+}
+img[alt="stethoscope"]{
+    width: 90%;
+    position: relative;
+    bottom: 415px;
+    left: 145px;
+}
+img[alt="mouse"]{
+    position: relative;
+    bottom: 610px;
+    left: 40px;
+}
+.make-appointment-btn{
+    position: relative;
+    bottom: 650px;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 40px;
+    background-color: #20bc7e;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.rightside-container{
+    width: 50%;
+}
+img[alt="greenBox"]{
+    width: 80%;
+    position: relative;
+    right: -135px;
+    top: 60px;
+}
+img[alt="yellowBox"]{
+    width: 70%;
+    position: relative;
+    right: -205px;
+    bottom: 465px;
+}
+img[alt="doctor-img"]{
+    scale: 0.8;
+    position: relative;
+    left: 120px;
+    bottom: 1250px;
+    
+}
